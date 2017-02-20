@@ -117,9 +117,5 @@ if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
   cd - > /dev/null
 fi
 
-# 3. Build bundle.js
-echo Building react app.
-eval $NPM_CMD run build
-
 ##################################################################################################################################
 echo "Finished successfully."
