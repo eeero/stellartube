@@ -5,7 +5,7 @@ import YTSearch from 'youtube-api-search';
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
-const API_KEY = "Put your YouTube API key here";
+const API_KEY = process.env.API_KEY;
 
 //Class-based component. Used if added functionality is needed.
 class App extends React.Component {
