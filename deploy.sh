@@ -119,7 +119,7 @@ fi
 
 # 3. Build bundle.js
 echo Building react app.
-npm run build
+eval $NPM_CMD run build
 
 ##################################################################################################################################
 echo "Finished successfully."
