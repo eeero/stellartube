@@ -7,7 +7,6 @@ import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 const API_KEY = process.env.API_KEY;
 
-//Class-based component. Used if added functionality is needed.
 class App extends React.Component {
   constructor(props){
     super(props);

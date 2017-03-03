@@ -1,6 +1,5 @@
 import React from 'react';
 
-//Class-based component. Used if added functionality is needed.
 class SearchBar extends React.Component {
   constructor(props){
     //Call parent method from parent class Component.
